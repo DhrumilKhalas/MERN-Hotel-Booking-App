@@ -1,0 +1,270 @@
+.navbar {
+  height: 50px;
+  background-color: #003580;
+  display: flex;
+  justify-content: center;
+} 
+
+.navContainer {
+  width: 100%;
+  max-width: 1024px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-weight: 500;
+}
+
+.navButton {
+  background-color: #0071c2;
+  color: white;
+  font-weight: 500;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.userNameanduserImgMain {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 10px;
+}
+.userNameanduserImgtwoImg {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+ 
+.navItems {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 10px;
+}
+.userNameanduserLogout {
+  background-color: #0071c2;
+  color: white;
+  font-weight: 500;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.userNameanduserImgMainOne {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.handleLogoutYesNoBtn {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+.handleLogoutYesBtn {
+  background-color: #003580;
+  color: white;
+  font-weight: 500;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 50px;
+}
+.handleLogoutNoBtn {
+  background-color: #003580;
+  color: white;
+  font-weight: 500;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 50px;
+}
+
+@media only screen and (max-width:299px){
+
+  .navbar{
+    padding-left:7px;
+    padding-right: 7px;
+    height:40px;
+    padding-top:10px;
+    /* background-color: red; */
+    width: 100vw;
+    
+  }
+  .navItems{
+    display: flex;
+    gap:7px;
+  }
+  .navButton{
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  .userNameanduserImgMain{
+    display: flex;
+    /* flex-direction: column; */
+    gap:10px;
+    
+  
+  }
+  .userNameanduserImgtwoImg{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    /* margin-bottom: 3px; */
+  }
+  .userNameanduserImgone{
+    font-size: 8px;
+    /* margin-bottom: 3px; */
+  }
+  .userNameanduserLogout{
+    font-size: 10px;
+    height:25px;
+    padding: 5px;
+    /* margin-bottom: 3px; */
+  }
+  .logo{
+    font-size: 14px;
+  }
+
+}
+
+@media only screen and (min-width:300px) and (max-width:640px){
+
+  .navbar{
+    /* padding-left:7px; */
+    /* padding-right:7px; */
+    /* padding-top: 15px; */
+    height: 40px;
+    padding-left:7px;
+    padding-right: 7px;
+    padding-top:20px;
+  width: 100vw;
+    
+  }
+  
+  .navItems{
+    display: flex;
+    gap:8px;
+  }
+  .navButton{
+    padding: 8px;
+    margin-bottom: 10px;
+  }  
+  .userNameanduserImgMain{
+    display: flex;
+    /* flex-direction: column; */
+    gap:10px;
+  }
+  .userNameanduserImgtwoImg{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    /* margin-bottom: 3px; */
+  }
+  .userNameanduserImgone{
+    font-size: 8px;
+    /* margin-bottom: 3px; */
+  }
+  .userNameanduserLogout{
+    font-size: 10px;
+    height:25px;
+    padding: 5px;
+    /* margin-bottom: 3px; */
+  }
+  .logo{
+    font-size: 16px;
+  }
+
+}
+
+@media only screen and (min-width:641px) and (max-width:1007px){
+
+  .navItems{
+    display: flex;
+    gap:12px;
+  }
+  .navButton{
+    padding: 10px;
+  }  
+   .navbar{
+    padding-left:10px;
+    padding-right: 10px;
+    padding-top: 8px;
+    
+  } 
+  .logo{
+    font-size: 20px;
+  } 
+  .userNameanduserImgMain{
+    display: flex;
+    /* flex-direction: column; */
+    gap:20px;
+  }
+  .userNameanduserImgtwoImg{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    /* margin-bottom: 3px; */
+  }
+  .userNameanduserImgone{
+    font-size: 14px;
+    /* margin-bottom: 3px; */
+  }
+  .userNameanduserLogout{
+    font-size: 14px;
+    height:35px;
+    padding: 5px;
+    margin-bottom: 5px;
+  }
+
+}
+
+/* @media only screen and (min-width:1008px){
+  
+  .logo{
+    font-size: 20px;
+  } 
+  .navbar{
+    padding-left:10px;
+    padding-right: 10px;
+    padding-top: 8px;
+  } 
+  .navButton{
+    padding: 10px;
+    
+  }
+  .navItems{
+    display: flex;
+    gap:12px;
+  }
+  .userNameanduserImgMain{
+    display: flex;
+    flex-direction: column; */
+    /* gap:20px;
+  }
+  .userNameanduserImgtwoImg{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%; */
+    /* margin-bottom: 3px; */
+  /* }
+  .userNameanduserImgone{
+    font-size: 14px; */
+    /* margin-bottom: 3px; */
+  /* }
+  .userNameanduserLogout{
+    font-size: 14px;
+    height:35px;
+    padding: 5px;
+    margin-bottom: 5px;
+  }
+
+} */

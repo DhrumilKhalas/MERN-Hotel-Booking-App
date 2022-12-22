@@ -1,0 +1,136 @@
+.reserve {
+  /* width: 600px; */
+  height: 100vh;
+  /* background-color: rgba(0, 0, 0, 0.418); */
+  position: absolute;
+  top: 495px;
+  left: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.rContainer {
+  background-color: white;
+  padding: 20px;
+  position: relative;
+  width: 400px;
+  border: 3px solid #003580;
+  border-radius: 20px;
+}
+
+.rClose {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.rItem {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  padding: 20px;
+}
+
+.rInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.rTitle {
+  font-weight: 500;
+}
+
+.rDesc {
+  font-weight: 300;
+}
+
+.rMax {
+  font-size: 12px;
+}
+
+.rPrice {
+  font-weight: 500;
+}
+
+.rSelectRooms {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  font-size: 8px;
+  color: gray;
+}
+
+.room {
+  display: flex;
+  flex-direction: column;
+}
+
+.rButton {
+  border: none;
+  padding: 10px 20px;
+  background-color: #0071c2;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+@media only screen and (max-width:299px){
+
+  .reserve {
+    /* width: 600px; */
+    height: 50vh;
+    /* background-color: rgba(0, 0, 0, 0.418); */
+    position: absolute;
+    top: 885px;
+    left: 5%;
+    right:5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+  }
+
+}
+
+@media only screen and (min-width:300px) and (max-width:640px){
+
+  .reserve {
+    /* width: 600px; */
+    height: 50vh;
+    /* background-color: rgba(0, 0, 0, 0.418); */
+    position: absolute;
+    top: 670px;
+    left: 5%;
+    right:5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+  }
+
+}
+
+@media only screen and (min-width:641px) and (max-width:1000px){
+
+  .reserve {
+    /* width: 600px; */
+    height: 50vh;
+    /* background-color: rgba(0, 0, 0, 0.418); */
+    position: absolute;
+    top: 720px;
+    left: 5%;
+    right:5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+  }
+
+}

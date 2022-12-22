@@ -1,0 +1,135 @@
+.contactMain {
+  width: 76%;
+  margin: 50px 12%;
+}
+.contactContent {
+  display: flex;
+  border: 2px solid #003580;
+  margin-top: 30px;
+}
+.contactContentOne {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  flex: 2;
+  justify-content: center;
+  background-color: #003580;
+}
+.contactHeading {
+  text-align: center;
+  color: #003580;
+}
+.contactContentOneAddress {
+  display: flex;
+  gap: 10px;
+}
+
+.contactContentTwo {
+  flex: 3;
+}
+.contactContentOnePhone {
+  display: flex;
+  gap: 10px;
+}
+.contactContentOneEmail {
+  display: flex;
+  gap: 10px;
+}
+.contactContentOneAddressHeading,
+.contactContentOnePhoneHeading,
+.contactContentOneEmailHeading {
+  color: white;
+  font-weight: 700;
+  margin-left: 30px;
+}
+.contactContentTwo {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 0px 5%;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.contactContentTwoInputs {
+  display: flex;
+  flex-direction: column;
+}
+.contactContentTwoHeading {
+  text-align: center;
+  color: #003580;
+}
+.contactContentTwoInputs {
+  margin-top: 30px;
+}
+.contactContentTwoInputsOne::placeholder {
+  color: #003580;
+}
+.contactContentTwoInputsTwo::placeholder {
+  color: #003580;
+}
+.contactContentTwoInputsThree::placeholder {
+  color: #003580;
+}
+.contactContentTwoInputsOne {
+  height: 40px;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom: 2px solid #003580;
+  outline: none;
+  color: #003580;
+}
+.contactContentTwoInputsTwo {
+  margin-top: 20px;
+  height: 40px;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom: 2px solid #003580;
+  outline: none;
+  color: #003580;
+}
+.contactContentTwoInputsThree {
+  margin-top: 20px;
+  height: 40px;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom: 2px solid #003580;
+  outline: none;
+  color: #003580;
+}
+.contactContentTwoButton {
+  background-color: #003580;
+  color: white;
+  font-weight: 500;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 100px;
+  margin-top: 30px;
+}
+.contactContentOneAddressFullAddress,
+.contactContentOnePhoneFullPhone,
+.contactContentOneEmailFullEmail {
+  margin-left: 30px;
+  color: white;
+  font-weight: 100;
+  margin-top: 3px;
+}
+.ContactFooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.emailmsg {
+  font-size: 14px;
+  color: #003580;
+  margin-top: 20px;
+}
+#sendbtnclick:active {
+  color: orange;
+  box-shadow: 5px 5px 5px #ccc;
+}

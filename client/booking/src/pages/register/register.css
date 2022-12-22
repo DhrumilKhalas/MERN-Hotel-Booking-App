@@ -1,0 +1,50 @@
+.registerform {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  gap: 10px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+.rinputinnner {
+  height: 45px;
+  margin-top: 10px;
+  width: 200px;
+  /* outline: none; */
+}
+/* .rinputinnner::placeholder{
+  padding-left: 10px;
+} */
+input[type="text"] {
+  text-indent: 15px;
+}
+input[type="email"] {
+  text-indent: 15px;
+}
+input[type="password"] {
+  text-indent: 15px;
+}
+.rinput {
+  display: flex;
+  flex-direction: column;
+}
+.rinputl {
+  font-size: 14px;
+}
+.rinputbtn {
+  background-color: #0071c2;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  width: 210px;
+  height: 40px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-weight: 600;
+}
+#successerrordiv {
+  font-size: 14px;
+  margin-top: 5px;
+}

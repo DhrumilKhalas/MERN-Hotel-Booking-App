@@ -1,0 +1,273 @@
+.localAreaAAccordian {
+  width: 80%;
+  margin: 0 10%;
+}
+.gandhiAshramMain {
+  display: flex;
+  gap: 20px;
+}
+#gandhiAshramsecondpara {
+  margin-top: 15px;
+}
+#gandhiAshramthirdpara {
+  margin-top: 15px;
+}
+.gandhiAshramAbout {
+  font-size: 14px;
+}
+.gandhiAshramImgbelowPart {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-end;
+  margin-top: 5px;
+}
+.gandhiAshramMap {
+  max-width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  border: none;
+  background-color: #0071c2;
+  color: white;
+  height: 30px;
+  cursor: pointer;
+}
+.gandhiAshramShare {
+  max-width: fit-content;
+}
+.gandhiAshramShare {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  border: 1px solid gray;
+  cursor: pointer;
+  color: white;
+  height: 30px;
+}
+.gandhiAshramShareIcon {
+  color: black;
+}
+.gandhiAshramSiteText {
+  text-decoration: none;
+  color: grey;
+
+  font-weight: 700;
+}
+.gandhiAshramSite {
+  margin-top: 15px;
+}
+.gandhiAshramMultipleImg {
+  /* cursor:pointer; */
+  height: 350px;
+  width: 500px;
+  border-radius: 10px;
+}
+.gandhiAshramMultipleImagesBelowDivMain {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 15px;
+  gap: 10px;
+  justify-content: center;
+}
+.extraImgs {
+  width: 200px;
+  height: 200px;
+}
+#hutheesingTemplesecondpara {
+  margin-top: 15px;
+}
+#adalajStepwellsecondpara {
+  margin-top: 15px;
+}
+#sciencecitysecondpara {
+  margin-top: 15px;
+}
+#sciencecitythirdpara {
+  margin-top: 15px;
+}
+#sciencecityforthpara {
+  margin-top: 15px;
+}
+#carmuseumsecondpara {
+  margin-top: 15px;
+}
+#akshardhamsecondpara {
+  margin-top: 15px;
+}
+#akshardhamthirdpara {
+  margin-top: 15px;
+}
+#suntemplesecondpara {
+  margin-top: 15px;
+}
+#suntemplethirdpara {
+  margin-top: 15px;
+}
+#suntempleforthpara {
+  margin-top: 15px;
+}
+#lothalsecondpara {
+  margin-top: 15px;
+}
+#iskconsecondpara {
+  margin-top: 15px;
+}
+#mosquesecondpara {
+  margin-top: 15px;
+}
+#utensilmuseumsecondpara {
+  margin-top: 15px;
+}
+#calicosecondpara {
+  margin-top: 15px;
+}
+.localAreaMPara {
+  margin-top: 15px;
+}
+.gandhiAshramOverlay {
+  color: grey;
+  font-weight: 700;
+  cursor: pointer;
+}
+.closeIconMain {
+  display: flex;
+}
+.closeIcon {
+  /* background-color:crimson; */
+  /* color:white; */
+  cursor: pointer;
+}
+.withCloseIcon {
+  margin-top: 30px;
+}
+.aCloseIconMain {
+  display: flex;
+}
+.ACloseIcon {
+  cursor: pointer;
+}
+.aWithCloseIcon {
+  margin-top: 30px;
+}
+
+.localAreaDAccordian {
+  width: 80%;
+  margin: 0 10%;
+}
+.localAreaDMain {
+  display: flex;
+  gap: 20px;
+}
+.localAreaDAbout {
+  font-size: 14px;
+}
+.localAreaDImgbelowPart {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-end;
+  margin-top: 5px;
+}
+.localAreaDMap {
+  max-width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  border: none;
+  background-color: #0071c2;
+  color: white;
+  height: 30px;
+  cursor: pointer;
+}
+.localAreaDShare {
+  max-width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  border: 1px solid gray;
+  cursor: pointer;
+  color: white;
+  height: 30px;
+}
+.localAreaDShareIcon {
+  color: black;
+}
+.localAreaDSiteText {
+  text-decoration: none;
+  color: grey;
+
+  font-weight: 700;
+}
+.localAreaDSite {
+  margin-top: 15px;
+}
+.localAreaDMultipleImg {
+  height: 350px;
+  width: 500px;
+  border-radius: 10px;
+}
+.localAreaDMultipleImagesBelowDivMain {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 15px;
+  gap: 10px;
+  justify-content: center;
+}
+.localAreaDExtraImgs {
+  width: 200px;
+  height: 200px;
+}
+.localAreaDOverlay {
+  color: grey;
+  font-weight: 700;
+  cursor: pointer;
+}
+.dCloseIconMain {
+  display: flex;
+}
+.DCloseIcon {
+  cursor: pointer;
+}
+.dWithCloseIcon {
+  margin-top: 30px;
+}
+.localAreaDPara {
+  margin-top: 15px;
+}
+.localAreaSocialImg {
+  height: 25px;
+  width: 25px;
+  cursor: pointer;
+}
+.localAreaSocialMEdiaIcons {
+  display: flex;
+  gap: 7px;
+}
+.localAreaFooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.localAreaHeadingAhmedabad {
+  margin-top: 30px;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #003580;
+}
+.localAreaHeadingDelhi {
+  margin-top: 30px;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #003580;
+}
+.localAreaHeadingMumbai {
+  margin-top: 30px;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #003580;
+}
